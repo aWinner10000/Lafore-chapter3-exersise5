@@ -1,0 +1,24 @@
+#include <iostream>
+#include<iomanip>
+using namespace std;
+
+
+int main()
+{
+	int emtyPlase, stringX;
+	emtyPlase = 20;
+	stringX = 1;
+	for (int j = 0; j < emtyPlase; j++)
+	{
+		cout << setw(emtyPlase);
+		for (int i = 0; i < stringX; i++)
+		{
+			cout << 'x';
+		}
+		emtyPlase--;
+		stringX++;
+		cout << endl;
+	}
+
+	 
+ }
